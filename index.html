@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>HTML Form</title>
+		<style>
+		body {
+			background-color: powderblue
+		}
+		table {
+  			color: white;
+  			border: solid;
+  			border-style: dashed;
+ 			text-align: center;
+		 border-width: 4px 4px 4px 4px;
+ 		}
+ 		tr, th, label {
+ 			color: DodgerBlue
+ 		}
+ 		form, input {
+ 			margin-top:20px;
+ 		}
+ 		#message{
+ 			 max-width: 500px;
+  			height: 100px;
+ 		 background-color: white;
+ 		}
+</style>
+	 </head>
+ 		<body>
+ 			<table border="2">
+ 				<caption>Data Form</caption>
+ 					<thead>
+ 						<tr>
+ 							<th>NAME</th>
+ 							<th>LAST NAME</th>
+ 							<th>PHONE</th>
+ 							<th>EMAIL</th>
+ 						</tr>
+ 					</thead>
+ 							<tbody>
+ 								<tr>
+ 									<th>John</th>
+ 									<th>Methis</th>
+ 									<th>321</th>
+ 									<th>hdgjf.@com</th>
+ 								</tr>
+ 								<tr>
+ 									<th>Ann</th>
+ 									<th>Nedus</th>
+ 									<th>123</th>
+ 									<th>hfbfm.@com</th>
+ 								</tr>
+ 								<tr>
+ 									<th>Jareo</th>
+ 									<th>Yuirh</th>
+ 									<th>258</th>
+ 									<th>iulu.@com</th>
+ 								</tr>
+ 							</tbody>
+								<tfoot>
+									<tr>
+ 										<th>Maria</th>
+ 										<th>Ihren</th>
+ 										<th>293</th>
+ 										<th>fjjj.@com</th>
+ 									</tr>
+	 							</tfoot>
+	 			</table>
+	 				<form name="name" action="" method="post">
+	 					<label for="user"> Enter your name: </label>
+	 					<input type="text" name="user" placeholder="Your name" id="user">
+	 				</form>
+	 					<form name="last name" action="" method="post">
+	 						<label for="last name"> Enter your last name: </label>
+	 						<input type="text" name="lastname name" placeholder="Your last name" 	id="last name">
+	 					</form>
+	 						<form name="sex" action="" method="post">
+	 							<label for="sex"> Select your sex: </label>
+	 							<input type="radio" name="sex" value="Male"> M
+	 							<input type="radio" name="sex" value="Female" checked="checked"> F
+	 						</form>
+	 							<form name="last name" action="" method="post">
+	 								<label for="message"> Write your message: </label><br>
+	 									<textarea name="message" rows="10" cols="43"id="message"></textarea> 
+	 							</form>
+	 								<select name="city">
+	 									<option selected disabled value="Select city">Select city</option>
+	 									<option value="Lviv">Lviv</option>
+	 									<option value="Dnipro">Dnipro</option>
+	 									<option value="Chernigiv">Chernigiv</option>
+	 									<option value="Kyiv">Kyiv</option>
+	 								</select><br>
+											<label for="remember"> Select language: </label><br>
+	 											<input type="checkbox" name="language" checked="checked" > Russian<br>
+	 											<input type="checkbox" name="language" > English<br>
+	 											<input type="checkbox" name="language" > Ukrainian<br>
+	 									
+	 									<input type="submit" value="sent">
+	 										
+ 		</body>
+</html>
